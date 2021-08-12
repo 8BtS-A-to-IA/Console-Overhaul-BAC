@@ -13,6 +13,16 @@ Due to the mod relying on a 'text-based recognition' algorithm (the ["ACR" syste
 The mod is also extensible; this means other mods that have their own enumerable sets that their CCs can use may inject that enumerable into B.A.C. For example a mod may add a CC which only targets enemy NPCs, thus this specific CC would want to cycle through enemy NPC names/object-IDs - the mod can generate that list and inject it, along with a recognition token (a new ACRI), directly into B.A.C. allowing for *any* CC with that specific ACRI in its name to be able to cycle through the newly added enumerable.<br>
 A mod can also create a 'special fill' extension where B.A.C. will only itterate through the injected enumerable on a specific set of console commands instead of the ACRI, like the CC `COBind` (from ['TSBind'](https://github.com/8BtS-A-to-IA/Console-Overhaul-TSBind)) will be the only case where all possible non-bound key-binds will be cycled through as it is specially filled to only ever run specifically on the `COBind` CC - unless changed by other mods.
 
+## Usage
+### At user level
+As a user; to use B.A.C you must first have at least one mod installed which adds new console commands.<br>
+The only commands which will be compatibile 'out of the box' will be any that have [these (todo)]() words in them.<br>
+You can test if the mod is working by just typing any of these words into the command console, then--with a space sperating the command-- a word or letters like 'ay' and pressing the <kbd>TAB</kbd> key.
+
+### At modder level
+B.A.C. can work seamlessly with any new CC from any mod as long as it follows the simple naming convention; in the name of the CC, have the order of [identifiers (todo)]() be in the same order as the arguments for your CC. That's it.<br>
+If you want to make an extention mod for B.A.C. [read this guide (todo)]()
+
 ## due to an issue with uploading files directly into the repo via the github website, the files have been temporarily placed into a .zip file.
 
 ## development
