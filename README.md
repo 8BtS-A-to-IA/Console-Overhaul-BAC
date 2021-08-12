@@ -1,7 +1,7 @@
 ![console overhaul](https://github.com/8BitShadow/media-resources/blob/main/console%20overhaul.png?raw=true)
 # Better Auto Complete, a better auto-complete method.
 ## About
-The "Better Auto Complete" mod is mod which which adds more auto-complete functions to the RoR2 console, allowing a user to press the <kbd>TAB</kbd> key to both auto-complete the word and cycle through the suggestions - instead of exclusively using the <kbd>↓</kbd> key.<br>
+"Better Auto Complete" is a mod which which adds more auto-complete functions to the RoR2 console, allowing a user to press the <kbd>TAB</kbd> key to both auto-complete the word and cycle through the suggestions - instead of exclusively using the <kbd>↓</kbd> key.<br>
 The name was made before DebugToolkit was even public...so...
 <br><br>
 
