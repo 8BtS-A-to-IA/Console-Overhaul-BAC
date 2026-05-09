@@ -23,8 +23,6 @@ You can test if the mod is working by just typing any of these words into the co
 B.A.C. can work seamlessly with any new CC from any mod as long as it follows the simple naming convention; in the name of the CC, have the order of [identifiers (todo)]() be in the same order as the arguments for your CC. That's it.<br>
 If you want to make an extention mod for B.A.C. [read this guide (todo)]()
 
-## due to an issue with uploading files directly into the repo via the github website, the files have been temporarily placed into a .zip file.
-
 ## development
 ### How can I develop for this project?
 After cloning the repository and ensuring you have any version of [VS 2017/2019](https://visualstudio.microsoft.com/) installed, you should be able to simply open the `.snl` file to open the project in VS.
